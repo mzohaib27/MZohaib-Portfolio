@@ -11,11 +11,13 @@ const EmailSection = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 p-1 md:p-6 ">
         <div className="flex flex-col space-y-4">
-          <h1 className="text-2xl font-bold text-white my-2">Let's Connect</h1>
+          <h1 className="text-2xl font-bold text-white my-2">
+            Let&apos;s Connect
+          </h1>
           <p className="text-gray-400 mb-4 max-w-md">
             I am currently looking for new oppurtunities, my inbox is always
-            open. Whether you have a question or jsut want to say hi, I'll try
-            my best to get back to you !
+            open. Whether you have a question or jsut want to say hi, I&apos;ll
+            try my best to get back to you !
           </p>
           <div className="social flex flex-row gap-4">
             <FaGithub className="w-8 h-8 text-gray-300 hover:text-purple-600 trans-eff hover:shadow-lg hover:shadow-purple-600" />
