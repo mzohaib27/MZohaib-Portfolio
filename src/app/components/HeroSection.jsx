@@ -10,10 +10,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 h-screen items-center">
         <div className="flex flex-col px-4 py-8">
           <h1 className="flex flex-col text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-white">
-            <span className="text-purple-600 text-shadow-xl">
-              {" "}
-              Hello I&apos;m
-            </span>
+            <span className="text-purple-600 text-shadow-xl"> Hello I am</span>
             {/* <span>Muhammad Zohaib Hasan</span> */}
             <TypeAnimation
               sequence={[
