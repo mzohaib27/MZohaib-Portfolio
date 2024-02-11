@@ -5,7 +5,7 @@ const EmailSection = () => {
   return (
     <section className="flex relative flex-col items-center justify-center my-8 md:my-12 py-6 md:py-12 gap-4">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-700 to-transparent rounded-full h-24 w-24 md:h-80 md:w-80 z-0 absolute transform translate-y-32 "></div>
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-fuchsia-700 to-transparent rounded-full h-24 w-24  z-0 absolute transform translate-x-44 shadow-lg shadow-fuchsia-700"></div>
+      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-fuchsia-700 to-transparent rounded-full h-24 w-24  z-0 absolute transform translate-x-24 md:translate-x-44 shadow-lg shadow-fuchsia-700"></div>
       <h1 className="text-3xl font-bold border-b-2 border-white text-white">
         Contact
       </h1>
