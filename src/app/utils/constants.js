@@ -4,7 +4,9 @@ import img3 from "../../../public/3rdimage.webp";
 import img4 from "../../../public/4thimage.jpg";
 import img5 from "../../../public/5thimage.jpeg";
 import img6 from "../../../public/6thimage.webp";
+import HeroImage from "../../../public/heroimage.jpeg";
 
+export { HeroImage };
 export const ProjectsData = [
   {
     id: 1,
