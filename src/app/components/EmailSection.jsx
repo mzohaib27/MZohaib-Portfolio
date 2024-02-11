@@ -17,7 +17,7 @@ const EmailSection = () => {
           <p className="text-gray-400 mb-4 max-w-md">
             I am currently looking for new oppurtunities, my inbox is always
             open. Whether you have a question or jsut want to say hi, I&apos;ll
-            try my best to get back to you !
+            try my best to get back to you !!!
           </p>
           <div className="social flex flex-row gap-4">
             <FaGithub className="w-8 h-8 text-gray-300 hover:text-purple-600 trans-eff hover:shadow-lg hover:shadow-purple-600" />
