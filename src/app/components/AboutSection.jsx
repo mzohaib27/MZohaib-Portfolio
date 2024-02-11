@@ -64,7 +64,11 @@ const AboutSection = () => {
     <>
       <div className="lg:flex gap-12 py-16 text-white">
         <div>
-          <Image src={img} alt="" className="shadow-2xl shadow-purple-600 " />
+          <Image
+            src={img}
+            alt="about-image"
+            className="shadow-2xl shadow-purple-600 "
+          />
         </div>
         <div className="flex flex-col">
           <div className="flex">
