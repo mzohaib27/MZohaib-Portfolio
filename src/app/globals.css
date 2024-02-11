@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.trans-eff{
+  @apply transition-all duration-700 cursor-pointer
+}
+
+.transitio-colors {
+  transition-property: linear-gradient(#6d0665,#56054f,#6a098d), rgb(126, 122, 122), black;
+  transition-duration: 0.9s;
+  transition-timing-function: ease;
+}
+
+.transitio-colors:hover {
+  background-color: rgb(165, 0, 165); /* Change to desired hover background color */
+  color: #0000 /* Change to desired text color on hover */
+  
+}
+
