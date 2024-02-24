@@ -4,6 +4,7 @@ import React from "react";
 import img from "../../../public/computer.jpeg";
 import { useTransition, useState } from "react";
 import TabButton from "./TabButton";
+import { motion } from "framer-motion";
 
 const TAB_DATA = [
   {
@@ -62,7 +63,7 @@ const AboutSection = () => {
   };
   return (
     <>
-      <div className="lg:flex gap-12 py-16 text-white">
+      <motion.div className="lg:flex gap-12 py-16 text-white">
         <div>
           <Image
             src={img}
@@ -108,7 +109,7 @@ const AboutSection = () => {
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

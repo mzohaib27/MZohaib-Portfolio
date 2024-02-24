@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import { ProjectsData } from "../utils/constants";
 import ProjectTab from "./ProjectTab";
+import Animate from "../utils/motion";
 
 const Projects = () => {
   const [tag, setTag] = useState("All");
@@ -41,18 +42,20 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8   text-white">
           {filteredProjects.map((project) => (
-            <div
-              key={project.id}
-              className="border-gray-400 transitio-colors transition-transform transform hover:-translate-y-2 border-2 rounded-xl"
-            >
-              <ProjectCard
+            <Animate ypos={200}>
+              <div
                 key={project.id}
-                title={project.title}
-                description={project.description}
-                imgUrl={project.image}
-                tags={project.tag}
-              />
-            </div>
+                className="border-gray-400 transitio-colors transition-transform transform hover:-translate-y-2 border-2 rounded-xl"
+              >
+                <ProjectCard
+                  key={project.id}
+                  title={project.title}
+                  description={project.description}
+                  imgUrl={project.image}
+                  tags={project.tag}
+                />
+              </div>
+            </Animate>
           ))}
         </div>
       </div>

@@ -3,12 +3,18 @@ import React from "react";
 import { HeroImage } from "../utils/constants";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-2 py-12 lg:py-24 items-center">
-        <div className="flex flex-col px-4 py-8">
+        <motion.div
+          initial={{ x: -300, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="flex flex-col px-4 py-8"
+        >
           <h1 className="flex flex-col text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-white">
             <span className="text-purple-600 text-shadow-xl"> Hello, I am</span>
             {/* <span>Muhammad Zohaib Hasan</span> */}
@@ -42,9 +48,14 @@ const HeroSection = () => {
               Download CV
             </button>
           </div>
-        </div>
-        <div className="relative lg:px-12 items-center justify-center">
-          <div className="absolute flex z-10 items-center justify-center  sm:-translate-x-12 -translate-y-2">
+        </motion.div>
+        <motion.div className="relative lg:px-12 items-center justify-center">
+          <motion.div
+            initial={{ y: 300, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 1, duration: 1 }}
+            className="absolute flex z-10 items-center justify-center  sm:-translate-x-12 -translate-y-2"
+          >
             <Image
               src={HeroImage}
               className=" rounded-full items-center shadow-lg shadow-black"
@@ -52,9 +63,14 @@ const HeroSection = () => {
               height={250}
               width={250}
             />
-          </div>
-          <div className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 shadow-2xl shadow-purple-600 rounded-full  flex"></div>
-        </div>
+          </motion.div>
+          <motion.div
+            initial={{ x: 300, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 shadow-2xl shadow-purple-600 rounded-full  flex"
+          ></motion.div>
+        </motion.div>
       </div>
     </section>
   );

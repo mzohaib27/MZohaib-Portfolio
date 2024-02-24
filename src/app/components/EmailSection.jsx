@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Animate from "../utils/motion";
 
 const EmailSection = () => {
   return (
@@ -24,36 +25,39 @@ const EmailSection = () => {
             <FaLinkedin className="w-8 h-8 text-gray-300 hover:text-purple-600 trans-eff hover:shadow-lg hover:shadow-purple-600" />
           </div>
         </div>
+
         <form className="my-4 md:px-12 flex flex-col gap-4">
-          <input
-            type="email"
-            id="email"
-            required
-            placeholder="Enter Name"
-            className="px-4 py-2 text-white rounded-lg bg-gray-800 w-full focus:outline-none shadow shadow-purple-600 focus:shadow-lg focus:shadow-purple-600 trans-eff"
-          />
-          <input
-            type="email"
-            id="email"
-            required
-            placeholder="Enter Email"
-            className="px-4 py-2 text-white rounded-lg bg-gray-800 w-full focus:outline-none shadow shadow-purple-600 focus:shadow-lg focus:shadow-purple-600 trans-eff"
-          />
-          <textarea
-            type="text"
-            id="subject"
-            required
-            placeholder="Enter Message"
-            className="px-4 py-2 text-white rounded-lg bg-gray-800 w-full focus:outline-none shadow shadow-purple-600 focus:shadow-lg focus:shadow-purple-600 trans-eff"
-          />
-          <div className="flex flex-row-reverse">
-            <button
-              type="submit"
-              className="px-4 py-2 border-2 border-gray-400 text-white shadow shadow-purple-600 hover:shadow-lg hover:shadow-purple-600 trans-eff hover:bg-purple-600 active:scale-75 rounded-lg"
-            >
-              Send
-            </button>
-          </div>
+          <Animate xpos={-300} delay={2}>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="Enter Name"
+              className="px-4 py-2 text-white rounded-lg bg-gray-800 w-full focus:outline-none shadow shadow-purple-600 focus:shadow-lg focus:shadow-purple-600 trans-eff my-2"
+            />
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="Enter Email"
+              className="px-4 py-2 text-white rounded-lg bg-gray-800 w-full focus:outline-none shadow shadow-purple-600 focus:shadow-lg focus:shadow-purple-600 trans-eff my-2"
+            />
+            <textarea
+              type="text"
+              id="subject"
+              required
+              placeholder="Enter Message"
+              className="px-4 py-2 text-white rounded-lg bg-gray-800 w-full focus:outline-none shadow shadow-purple-600 focus:shadow-lg focus:shadow-purple-600 trans-eff my-2"
+            />
+            <div className="flex flex-row-reverse">
+              <button
+                type="submit"
+                className="px-4 py-2 border-2 border-gray-400 text-white shadow shadow-purple-600 hover:shadow-lg hover:shadow-purple-600 trans-eff hover:bg-purple-600 active:scale-75 rounded-lg"
+              >
+                Send
+              </button>
+            </div>
+          </Animate>
         </form>
       </div>
     </section>
