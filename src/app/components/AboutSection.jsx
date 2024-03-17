@@ -68,7 +68,7 @@ const AboutSection = () => {
           <Image
             src={img}
             alt="about-image"
-            className="shadow-2xl shadow-purple-600 "
+            className="shadow-2xl shadow-indigo-600 "
           />
         </div>
         <div className="flex flex-col">

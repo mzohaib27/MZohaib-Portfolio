@@ -65,10 +65,10 @@ const HeroSection = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ x: 300, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 300, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 shadow-2xl shadow-purple-600 rounded-full  flex"
+            className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-gradient-to-b from-fuchsia-600 via-blue-600 to-black shadow-2xl shadow-white rounded-full  flex"
           ></motion.div>
         </motion.div>
       </div>
