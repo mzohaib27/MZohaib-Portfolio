@@ -53,6 +53,8 @@ const Projects = () => {
                   description={project.description}
                   imgUrl={project.image}
                   tags={project.tag}
+                  link={project.link}
+                  githubLink={project.link2}
                 />
               </div>
             </Animate>

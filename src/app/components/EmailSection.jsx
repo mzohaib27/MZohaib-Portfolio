@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Animate from "../utils/motion";
+import { TypeAnimation } from "react-type-animation";
 
 const EmailSection = () => {
   return (
@@ -14,7 +15,26 @@ const EmailSection = () => {
         <div className="flex flex-col space-y-4">
           <h1 className="text-2xl font-bold text-white my-2">
             Let&apos;s Connect
+            <p className="text-purple-600">
+              <TypeAnimation
+                sequence={[
+                  "React",
+                  3000,
+                  "Node.js",
+                  3000,
+                  "Express.js",
+                  3000,
+                  "MongoDB",
+                  3000,
+                ]}
+                repeat={Infinity}
+                wrapper="span"
+                speed={4}
+                style={{ display: "inline-block" }}
+              />
+            </p>
           </h1>
+
           <p className="text-gray-400 mb-4 max-w-md">
             I am currently looking for new oppurtunities, my inbox is always
             open. Whether you have a question or jsut want to say hi, I&apos;ll
