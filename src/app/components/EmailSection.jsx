@@ -15,7 +15,7 @@ const EmailSection = () => {
         <div className="flex flex-col space-y-4">
           <h1 className="text-2xl font-bold text-white my-2">
             Let&apos;s Connect
-            <p className="text-purple-600">
+            {/* <p className="text-purple-600">
               <TypeAnimation
                 sequence={[
                   "React",
@@ -32,7 +32,7 @@ const EmailSection = () => {
                 speed={4}
                 style={{ display: "inline-block" }}
               />
-            </p>
+            </p> */}
           </h1>
 
           <p className="text-gray-400 mb-4 max-w-md">

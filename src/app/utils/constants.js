@@ -51,20 +51,20 @@ export const ProjectsData = [
     link: "https://modern-nike-store.vercel.app",
     link2: "https://github.com/mzohaib27/modern-nike-store",
   },
-  {
-    id: 5,
-    title: "3d Website with Three.js",
-    description:
-      "React Modern Design having 3d features using a popular javascript Library Three.js. And also using framer motion for beautifull animations",
-    image: img5,
-    tag: ["All", "Web"],
-  },
-  {
-    id: 6,
-    title: "Creative Designer Website",
-    description:
-      "React Modern Design having 3d features using a popular javascript Library Three.js. And also using framer motion for beautifull animations",
-    image: img6,
-    tag: ["All", "Web"],
-  },
+  // {
+  //   id: 5,
+  //   title: "3d Website with Three.js",
+  //   description:
+  //     "React Modern Design having 3d features using a popular javascript Library Three.js. And also using framer motion for beautifull animations",
+  //   image: img5,
+  //   tag: ["All", "Web"],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Creative Designer Website",
+  //   description:
+  //     "React Modern Design having 3d features using a popular javascript Library Three.js. And also using framer motion for beautifull animations",
+  //   image: img6,
+  //   tag: ["All", "Web"],
+  // },
 ];
