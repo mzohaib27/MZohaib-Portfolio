@@ -56,7 +56,7 @@ export const ProjectsData = [
     title: "Frame of uiCookies Landing page with React.js and Tailwind CSS",
    description:
       "React Modern Design using a popular javascript Library React.js and Tailwind CSS . And also using framer motion for beautifull animations",
-  //   image: img5,
+     image: img5,
     tag: ["All", "Web"], 
        link : 
 "https://ui-cookies-landing-page.vercel.app",
