@@ -60,7 +60,7 @@ export const ProjectsData = [
     tag: ["All", "Web"], 
        link : 
 "https://ui-cookies-landing-page.vercel.app",
- link2 : "", 
+ link2 : "https://www.google.com", 
    },
   // {
   //   id: 6,
