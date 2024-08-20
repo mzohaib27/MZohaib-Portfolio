@@ -7,16 +7,16 @@ import Projects from "./components/Projects";
 import Animate from "./utils/motion";
 
 export default function Home() {
-  const createCounter = (init) => {
-    var value = init;
-    function increment() {
-      return value + 1;
-    }
-  };
+  // const createCounter = (init) => {
+  //   var value = init;
+  //   function increment() {
+  //     return value + 1;
+  //   }
+  // };
 
-  const counter = createCounter(5);
-  let result = counter.increment();
-  console.log(result);
+  // const counter = createCounter(5);
+  // let result = counter.increment();
+  // console.log(result);
 
   return (
     <main className="flex min-h-screen flex-col bg-[#121212] ">

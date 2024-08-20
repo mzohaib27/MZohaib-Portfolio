@@ -45,7 +45,9 @@ const HeroSection = () => {
               Hire Me
             </button>
             <button className="px-4 py-2 m-2 w-full sm:w-fit rounded-full text-white bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600  hover:bg-gradient-to-b hover:from-black hover:to-black border-2 hover:border-white hover:text-white border-black trans-eff active:scale-75">
-              Download CV
+              <a href="/MZohaib-Resume.pdf" download>
+                Download CV
+              </a>
             </button>
           </div>
         </motion.div>

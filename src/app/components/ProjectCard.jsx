@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { truncate } from "lodash";
 import { FaCode } from "react-icons/fa";
 import { MdAddLink, MdOutlineRemoveRedEye } from "react-icons/md";
 import Link from "next/link";
@@ -27,9 +28,11 @@ const ProjectCard = ({ imgUrl, title, description, link, githubLink }) => {
       </div>
       <div>
         <h5 className="text-2xl font-semibold text-gray-200 pt-2 px-2">
-          {title}
+          {truncate(title, { length: 20 })}
         </h5>
-        <p className=" text-gray-400  py-4 px-2 ">{description}</p>
+        <p className=" text-gray-400  py-4 px-2 ">
+          {truncate(description, { length: 70 })}
+        </p>
       </div>
     </div>
   );
