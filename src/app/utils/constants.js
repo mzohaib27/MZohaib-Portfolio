@@ -53,6 +53,7 @@ export const ProjectsData = [
   },
   {
     id: 5,
+
     title: "3d Website with Three.js",
     description:
       "React Modern Design having 3d features using a popular javascript Library Three.js. And also using framer motion for beautifull animations",
@@ -67,4 +68,21 @@ export const ProjectsData = [
     image: img6,
     tag: ["All", "Web"],
   },
+  {
+    title: "Frame of uiCookies Landing page with React.js and Tailwind CSS",
+    description:
+      "React Modern Design using a popular javascript Library React.js and Tailwind CSS . And also using framer motion for beautifull animations",
+    image: img5,
+    tag: ["All", "Web"],
+    link: "https://ui-cookies-landing-page.vercel.app",
+    link2: "https://www.google.com",
+  },
+  // {
+  //   id: 6,
+  //   title: "Creative Designer Website",
+  //   description:
+  //     "React Modern Design having 3d features using a popular javascript Library Three.js. And also using framer motion for beautifull animations",
+  //   image: img6,
+  //   tag: ["All", "Web"],
+  // },
 ];
