@@ -1,7 +1,7 @@
 import img1 from "../../../public/reactwebsite.jpg";
 import img2 from "../../../public/2ndimage.jpg";
 import img3 from "../../../public/3rdimage.webp";
-import img4 from "../../../public/4thimage.jpg";
+import img4 from "../../../public/uicookies.jpeg";
 import img5 from "../../../public/5thimage.jpeg";
 import img6 from "../../../public/6thimage.webp";
 import HeroImage from "../../../public/heroimage.jpeg";
@@ -69,10 +69,10 @@ export const ProjectsData = [
     tag: ["All", "Web"],
   },
   {
-    title: "Frame of uiCookies Landing page with React.js and Tailwind CSS",
+    title: "uiCookies with React.js and Tailwind CSS",
     description:
       "React Modern Design using a popular javascript Library React.js and Tailwind CSS . And also using framer motion for beautifull animations",
-    image: img5,
+    image: img4,
     tag: ["All", "Web"],
     link: "https://ui-cookies-landing-page.vercel.app",
     link2: "https://www.google.com",

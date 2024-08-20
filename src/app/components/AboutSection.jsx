@@ -43,11 +43,18 @@ const TAB_DATA = [
     title: "Certification",
     id: "certifications",
     content: (
-      <ul className="text-gray-400">
-        <li className="text-gray-200">PNY Trainings Lahore</li>
-        <li>MERN Stack Developer</li>
-        <li>Sep-2023 to Dec-2023</li>
-      </ul>
+      <div className="md:flex gap-6 text-gray-400">
+        <ul className="text-gray-400">
+          <li className="text-gray-200">PNY Trainings Lahore</li>
+          <li>MERN Stack Developer</li>
+          <li>Sep-2023 to Dec-2023</li>
+        </ul>
+        <ul className="text-gray-400">
+          <li className="text-gray-200">EC-Council</li>
+          <li>Object Oriented Javascript</li>
+          <li>March-2024</li>
+        </ul>
+      </div>
     ),
   },
 ];
